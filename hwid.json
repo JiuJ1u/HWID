@@ -1,18 +1,6 @@
 {
     "devices": [
         {
-            "hwid": "a5e34439165bdc202ed2652e301cf5e2",
-            "expired": 0,
-            "name": "NahidaLing",
-            "rank": "Dev",
-            "ban": {
-                "state": false,
-                "reason": ""
-            },
-            "hash": "f7756e3c02d3c163a632cb98c177353d",
-            "tags": {}
-        },
-        {
             "hwid": "7391231a2175cdc31b4f223187a22e5c",
             "expired": 0,
             "name": "JiuJiu",
@@ -23,7 +11,20 @@
             },
             "hash": "15c60b41cb1afed43b6545a02f55532f",
             "tags": {}
+        },
+        {
+            "hwid": "a5e34439165bdc202ed2652e301cf5e2",
+            "expired": 0,
+            "name": "NahidaLing",
+            "rank": "Dev",
+            "ban": {
+                "state": false,
+                "reason": ""
+            },
+            "hash": "f7756e3c02d3c163a632cb98c177353d",
+            "tags": {}
         }
+
     ],
     "pkey": "114514"
 }

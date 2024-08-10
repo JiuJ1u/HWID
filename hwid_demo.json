@@ -9,7 +9,10 @@
                 "state": false, // 是否被封禁 false = 没 true = 有
                 "reason": "" // 封禁原因
             },
-            "hash": "99bcd1dec8024dff28311bbc984beefc", // 校验值 算法: 取这段文本的md5 "$pkey ${device.hwid} ${device.expired} ${device.rank} ${device.ban.state}" 
+            "hash": "512c8b5668fd03d4658f73f8ebe6f7b1", 
+            // 校验值 算法: 取这段文本的md5(32位小写) "$pkey ${device.hwid} ${device.expired} ${device.rank} ${device.ban.state}" 
+            // https://www.jyshare.com/front-end/703/
+            // 例如上面的用户就   pkey1 114514 0 Dev false -> 512c8b5668fd03d4658f73f8ebe6f7b1
             "tags": {
                 "qq": 114514,
                 "message": "qwq",
@@ -29,5 +32,5 @@
             "tags": {} // 额外标记也可以什么都不填..
         } // 后续用户以此推类
     ],
-    "pkey": "114514" // 随便填
+    "pkey": "pkey1" // 随便填
 }

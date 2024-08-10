@@ -1,8 +1,8 @@
 {
     "devices": [
-        {
+        { // 第一个用户数据
             "hwid": "114514", // 用户的hwid
-            "expired": 0, // 到期时间戳  https://tool.lu/timestamp/  在这里 精准度为毫秒
+            "expired": 0, // 到期时间戳  https://tool.lu/timestamp/  在这里 精准度为毫秒 也可以填写 0 为永不到期
             "name": "NahidaLing", // 用户名
             "rank": "Dev", // 用户头衔
             "ban": {
@@ -15,7 +15,19 @@
                 "message": "qwq",
                 "good": true
             } // 所有额外标记 不会影响验证
-        }
+        },
+        { // 第二个用户数据
+            "hwid": "114514",
+            "expired": 0,
+            "name": "o",
+            "rank": "User",
+            "ban": {
+                "state": true,
+                "reason": "泄露配置"
+            },
+            "hash": "99bcd1dec8024dff28311bbc984beefc",
+            "tags": {} // 额外标记也可以什么都不填..
+        } // 后续用户以此推类
     ],
     "pkey": "114514" // 随便填
 }

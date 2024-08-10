@@ -3,12 +3,14 @@
         {
             "hwid": "a5e34439165bdc202ed2652e301cf5e2",
             "expired": 1723451455000,
+            "name": "NahidaLing",
             "rank": "Dev",
             "ban": {
-                "state": true,
-                "reason": "共享"
+                "state": false,
+                "reason": ""
             },
-            "hash": "99bcd1dec8024dff28311bbc984beecc"
+            "hash": "99bcd1dec8024dff28311bbc984beecc",
+            "tags": {}
         }
     ],
     "pkey": "114514"

@@ -4,7 +4,7 @@
             "hwid": "a5e34439165bdc202ed2652e301cf5e2",
             "expired": 1723451455000,
             "rank": "Dev",
-            "banned": {
+            "ban": {
                 "state": true,
                 "reason": "共享"
             },

@@ -2,14 +2,26 @@
     "devices": [
         {
             "hwid": "a5e34439165bdc202ed2652e301cf5e2",
-            "expired": 1723451455000,
+            "expired": 0,
             "name": "NahidaLing",
             "rank": "Dev",
             "ban": {
                 "state": false,
                 "reason": ""
             },
-            "hash": "99bcd1dec8024dff28311bbc984beecc",
+            "hash": "dc97ca6c062b20e871188225580fd7b4",
+            "tags": {}
+        },
+        {
+            "hwid": "7391231a2175cdc31b4f223187a22e5c",
+            "expired": 0,
+            "name": "JiuJiu",
+            "rank": "Dev",
+            "ban": {
+                "state": false,
+                "reason": ""
+            },
+            "hash": "fc1822b78d0ca0c1fe4b21dcd2f82965",
             "tags": {}
         }
     ],

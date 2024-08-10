@@ -1,0 +1,21 @@
+{
+    "devices": [
+        {
+            "hwid": "114514", // 用户的hwid
+            "expired": 0, // 到期时间戳  https://tool.lu/timestamp/  在这里 精准度为毫秒
+            "name": "NahidaLing", // 用户名
+            "rank": "Dev", // 用户头衔
+            "ban": {
+                "state": false, // 是否被封禁 false = 没 true = 有
+                "reason": "" // 封禁原因
+            },
+            "hash": "99bcd1dec8024dff28311bbc984beefc", // 校验值 算法: 取这段文本的md5 "$pkey ${device.hwid} ${device.expired} ${device.rank} ${device.ban.state}" 
+            "tags": {
+                "qq": 114514,
+                "message": "qwq",
+                "good": true
+            } // 所有额外标记 不会影响验证
+        }
+    ],
+    "pkey": "114514" // 随便填
+}
